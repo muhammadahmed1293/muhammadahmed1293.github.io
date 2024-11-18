@@ -1,0 +1,56 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(to right, #007bff, #6610f2);
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 1.25rem;
+}
+
+#about {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+#about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    color: #6c757d;
+}
+
+#services {
+    padding: 60px 0;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+#contact {
+    padding: 60px 0;
+}
+
+#contact form .btn-primary {
+    background-color: #6610f2;
+    border: none;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+}
